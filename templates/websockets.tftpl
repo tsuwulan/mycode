@@ -1,4 +1,11 @@
+<!-- 
+comment  
+-->
+[]: (comment)
+[]: # "comment"
+[//]: #comment
 %{ for addr, port in ip_addrs ~}
+<!-- commt inside -->
 backend ${addr}:${port}
 %{ endfor ~}
 
